@@ -27,6 +27,7 @@ describe("Main Module (src/index.js)", () => {
       }
     });
 
+
     expect(
       foundTransformLineEndingConst,
       "In src/index.js, let's use `const` in our declaration of the `transformLineEnding` variable"
@@ -69,7 +70,7 @@ describe("Main Module (src/index.js)", () => {
       }
     });
 
-    expect(
+   expect(
       foundLineEndingReplacementsConst,
       "In src/index.js, let's use `const` in our declaration of the `LineEndingReplacements` variable"
     ).to.be.true;

@@ -20,7 +20,7 @@ describe("Informational Text (src/info.js)", () => {
           node.init.type === "TaggedTemplateExpression")
       ) {
         foundTemplateTag = true;
-      }
+      };
     });
 
     expect(
